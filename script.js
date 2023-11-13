@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to handle button clicks
     function handleButtonClick(value) {
-        if (value === "AC") {
+        if (value === "CE") {
             // Clear the display
             display.value = "";
         } else if (value === "DE") {
