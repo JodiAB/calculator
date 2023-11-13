@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var display = document.querySelector("input[name='display']");
 
     // Attach click event listeners to number and operator buttons
-    var buttons = document.querySelectorAll("input[type='button']");
+    var buttons = document.querySelectorAll(".custom-calculator form input[type='button']");
     buttons.forEach(function (button) {
         button.addEventListener("click", function () {
             handleButtonClick(button.value);
